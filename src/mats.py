@@ -117,7 +117,7 @@ malleable_cast_iron = utils.Material(
     nu=0.27,
     Sy=275742000.0)
 
-# Aluminium Alloys (visible portion only)
+# Aluminium Alloys 
 aluminum_1060_alloy = utils.Material(
     rho=2700.0,
     E=69000000000.0,
