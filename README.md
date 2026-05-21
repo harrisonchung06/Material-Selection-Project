@@ -1,6 +1,8 @@
 # Material Selection Project
 
-This project investigates the optimal material and cross-sectional geometry for a lightweight chair leg modeled as a slender column under axial compression. The design objective is to maximize critical buckling load per unit mass while satisfying geometric, buckling, and yielding constraints. The work combines hand analysis based on Euler buckling theory, stochastic optimization in Python, and SolidWorks FEA validation.
+[This project](docs/Material%20Selection%20Project%20Technical%20Report.pdf) investigates the optimal material and cross-sectional geometry for a lightweight chair leg modeled as a slender column under axial compression. The design objective is to maximize critical buckling load per unit mass while satisfying geometric, buckling, and yielding constraints. The work combines hand analysis based on Euler buckling theory, stochastic optimization in Python, and SolidWorks FEA validation.
+
+![](docs/resources/results.png)
 
 ## Project Objective
 
@@ -67,7 +69,7 @@ SolidWorks Simulation 2025 was used to perform linear buckling analysis on the o
 
 The design search produced four primary candidates: Monte Carlo circular, Monte Carlo rectangular, PSO circular, and PSO rectangular. The best-performing design found in the explored space was a thin-walled rectangular alloy-steel tube from the PSO search. More broadly, the high-performing candidates shared similar traits:
 
-- large outer dimensions close to the 30 mm limit
+- large outer dimensions close to the `30 mm` limit
 - thin walls
 - high stiffness-to-weight ratio
 - high yield strength
@@ -76,15 +78,15 @@ The design search produced four primary candidates: Monte Carlo circular, Monte 
 
 The final selected design was a hollow rectangular cross section made from alloy steel, with:
 
-- outer dimensions: 28.26 mm x 29.06 mm
-- inner dimensions: 25.06 mm x 26.19 mm
+- outer dimensions: `28.26 mm x 29.06 mm`
+- inner dimensions: `25.06 mm x 26.19 mm`
 - material properties: `E = 210 GPa`, `rho = 7700 kg/m^3`
 
 This design was selected because it provided strong buckling resistance with low mass and was supported by both optimization and the weighted decision matrix.
 
 ## FEA Validation
 
-SolidWorks buckling studies were used to compare FEA critical loads against Euler predictions. The percent differences between the analytical and FEA results ranged from about 2.26% to 15.5%, indicating reasonable agreement under the idealized assumptions of the project. Rectangular sections showed larger disagreement than circular sections, likely due to mesh sensitivity and greater weak-axis sensitivity.
+SolidWorks buckling studies were used to compare FEA critical loads against Euler predictions. The percent differences between the analytical and FEA results ranged from about `2.26%` to `15.5%`, indicating reasonable agreement under the idealized assumptions of the project. Rectangular sections showed larger disagreement than circular sections, likely due to mesh sensitivity and greater weak-axis sensitivity.
 
 ## Key Findings
 
