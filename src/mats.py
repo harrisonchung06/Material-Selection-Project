@@ -128,7 +128,7 @@ aluminum_1060_h12 = utils.Material(
     rho=2700.0,
     E=69000000000.0,
     nu=0.33,
-    Sy=61e9)
+    Sy=61e6)
 
 MATS = [
     carbon_1023_sheet_ss,

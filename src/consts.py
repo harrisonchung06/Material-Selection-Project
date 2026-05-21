@@ -16,4 +16,4 @@ n = 2
 #Limits
 LIM = (0.0001, 0.03) #30 mm x 30 mm cross section envelope MAX
 V_LIM = (0.0001, 0.0015)
-LAMBDA = 20000
+LAMBDA = 20000 #Penalty weight factor, must be >> than the score since failure of column is unacceptable
