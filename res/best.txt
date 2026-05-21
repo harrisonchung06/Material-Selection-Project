@@ -1,0 +1,9 @@
+PSO
+Circular Design
+ALL Best score:    2.145761376941695e-06
+ALL Best position: Circ_Design(mat=Material(rho=7700.0, E=210000000000.0, nu=0.28, Sy=620422000.0), d_o=0.02995300397358228, t=0.0008382417450813383)
+
+
+Rectangular Design
+ALL Best score:    1.8489695381280672e-06
+ALL Best position: Rect_Design(mat=Material(rho=7700.0, E=210000000000.0, nu=0.28, Sy=620422000.0), a_o=0.028259956582776732, b_o=0.029063255394729575, a_i=0.025064632155511992, b_i=0.026188745721446957)
