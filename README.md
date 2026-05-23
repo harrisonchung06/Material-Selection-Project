@@ -2,7 +2,7 @@
 
 [This project](docs/Material%20Selection%20Project%20Technical%20Report.pdf) investigates the optimal material and cross-sectional geometry for a lightweight chair leg modeled as a slender column under axial compression. The design objective is to maximize critical buckling load per unit mass while satisfying geometric, buckling, and yielding constraints. The work combines hand analysis based on Euler buckling theory, stochastic optimization in Python, and SolidWorks FEA validation.
 
-![](docs/resources/results.png)
+![](docs/resources/Monte Carlo Circular.png)
 
 ## Project Objective
 
